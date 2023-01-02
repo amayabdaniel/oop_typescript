@@ -5,7 +5,7 @@ import { Product } from "../models/products.model";
 export class BasteHttpService<TypeClass> {
   //private data: TypeClass[] = [];
 
-  constructor(private url: string) {
+  constructor(protected url: string) {
 
   }
 
